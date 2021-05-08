@@ -28,7 +28,7 @@ name CDATA #REQUIRED
 <!ATTLIST operation
 name CDATA #REQUIRED
 paging CDATA #IMPLIED
-paramtype CDATA #IMPLIED
+paramtype (parameterObject|object|primitive) #IMPLIED
 multiplicity (one|many|paging) #IMPLIED
 remarks CDATA #IMPLIED
 >
